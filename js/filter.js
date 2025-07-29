@@ -1,4 +1,4 @@
-$(window).load(function(){
+/*$(window).load(function(){
     var $container = $('.projectContainer');
     $container.isotope({
        filter: '*',
@@ -8,7 +8,7 @@ $(window).load(function(){
             queue: false
         }
     });
-
+*/
    /* $('.projectFilter a').click(function(){
         $('.projectFilter .current').removeClass('current');
         $(this).addClass('current');
