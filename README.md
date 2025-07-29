@@ -1,3 +1,9 @@
+Template by: Gsurma
+
+Images from: Unsplash
+
+All static icons from: Flaticon
+
 # 🛠️ How to Run This Jekyll Project Locally (Windows)
 
 This guide helps you install and run this Jekyll project step-by-step using Ruby, Bundler, and Jekyll on Windows.
