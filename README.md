@@ -1,5 +1,5 @@
 ## Personal Portfolio
-** Please go to ** [here] (https://KienTran2000.github.io) too see my portfolio.
+**Please go to** [here](https://KienTran2000.github.io) too see my portfolio.
 --------------------------------------------------------------------------------------------------------
 
 ## Acknowledgements
