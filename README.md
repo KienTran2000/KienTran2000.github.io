@@ -1,8 +1,19 @@
-Template by: Gsurma
+## Acknowledgements
 
-Images from: Unsplash
+- **Template by:** [Gsurma](https://github.com/gsurma)  
+- **Images from:** [Unsplash](https://unsplash.com)  
+- **Static icons provided by:** [Flaticon](https://www.flaticon.com)
 
-All static icons from: Flaticon
+### Icon Credits:
+- [Vehicles icons](https://www.flaticon.com/free-icons/vehicles) by Flat Icons – Flaticon  
+- [Khao manee cat icons](https://www.flaticon.com/authors/mrhamster) by MrHamster – Flaticon  
+- [Flu icons](https://www.flaticon.com/authors/flatart-icons) by flatart_icons – Flaticon  
+- [Natural disaster icons](https://www.flaticon.com/authors/freepik) by Freepik – Flaticon  
+- [Airbnb icons](https://www.flaticon.com/authors/berkahicon) by berkahicon – Flaticon  
+- [Pi icons](https://www.flaticon.com/authors/aprosymbols) by AProsymbols – Flaticon  
+- [Emotion icons](https://www.flaticon.com/authors/freepik) by Freepik – Flaticon  
+- [Assessment icons](https://www.flaticon.com/authors/design-circle) by Design Circle – Flaticon  
+- [Basketball icons](https://www.flaticon.com/authors/mnauilady) by mnauilady – Flaticon
 
 # 🛠️ How to Run This Jekyll Project Locally (Windows)
 
