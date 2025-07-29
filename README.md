@@ -1,7 +1,3 @@
-<h3 align="center">
-  <img src="images/icons/gsurma_icon_web.png" width="300">
-</h3>
---------------------------------------------------
 # 🛠️ How to Run This Jekyll Project Locally (Windows)
 
 This guide helps you install and run this Jekyll project step-by-step using Ruby, Bundler, and Jekyll on Windows.
