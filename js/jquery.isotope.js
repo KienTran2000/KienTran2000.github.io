@@ -320,7 +320,6 @@
 
     this._create( options );
     this._init( callback );
-
   };
 
   // styles of container element we want to keep track of
