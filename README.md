@@ -1,3 +1,7 @@
+## Personal Portfolio
+** Please go to ** [here] (https://KienTran2000.github.io) too see my portfolio.
+--------------------------------------------------------------------------------------------------------
+
 ## Acknowledgements
 
 - **Template by:** [Gsurma](https://github.com/gsurma)  
@@ -14,7 +18,7 @@
 - [Emotion icons](https://www.flaticon.com/authors/freepik) by Freepik – Flaticon  
 - [Assessment icons](https://www.flaticon.com/authors/design-circle) by Design Circle – Flaticon  
 - [Basketball icons](https://www.flaticon.com/authors/mnauilady) by mnauilady – Flaticon
-
+--------------------------------------------------------------------------------------------------------
 # 🛠️ How to Run This Jekyll Project Locally (Windows)
 
 This guide helps you install and run this Jekyll project step-by-step using Ruby, Bundler, and Jekyll on Windows.
