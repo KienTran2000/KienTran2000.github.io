@@ -20,7 +20,7 @@
 - [Assessment icons](https://www.flaticon.com/authors/design-circle) by Design Circle – Flaticon  
 - [Basketball icons](https://www.flaticon.com/authors/mnauilady) by mnauilady – Flaticon
 --------------------------------------------------------------------------------------------------------
-# 🛠️ How to Run This Jekyll Project Locally (Windows)
+# How to Run This Jekyll Project Locally (Windows)
 
 This guide helps you install and run this Jekyll project step-by-step using Ruby, Bundler, and Jekyll on Windows.
 
