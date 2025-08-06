@@ -24,18 +24,18 @@
 
 This guide helps you install and run this Jekyll project step-by-step using Ruby, Bundler, and Jekyll on Windows.
 
-## ✅ Prerequisites
+## Prerequisites
 - Windows OS
 - Ruby (install via RubyInstaller)
 - Git (optional but recommended)
 
-## 📦 Installation & Setup
+## Installation & Setup
 
 1. **Download and Install Ruby**
    - Visit https://rubyinstaller.org/downloads/
    - Download the latest version of Ruby+Devkit (e.g., Ruby+Devkit 3.x.x).
    - Run the installer.
-   - ✅ Check the box "Add Ruby executables to your PATH" during setup.
+   - Check the box "Add Ruby executables to your PATH" during setup.
    - After installation, a terminal will open for MSYS2 setup. Press `Enter` to proceed with the default option.
 
 2. **Verify Ruby Installation**
@@ -73,7 +73,7 @@ This guide helps you install and run this Jekyll project step-by-step using Ruby
 7. **Open the Site in Your Browser**
    - Visit: http://localhost:4000
 
-## 🧩 Common Issues
+## Common Issues
 
 - **Could not locate Gemfile**
   - You're in the wrong folder. Use `cd` to move into the project directory that contains the `Gemfile`.
@@ -84,7 +84,7 @@ This guide helps you install and run this Jekyll project step-by-step using Ruby
 - **Permission errors during gem install**
   - Try reopening the terminal as Administrator.
 
-## 📝 Credits
+## Credits
 
 Built with:
 - [Jekyll](https://jekyllrb.com/)
