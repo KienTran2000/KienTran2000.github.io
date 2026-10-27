@@ -1,179 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<link rel="apple-touch-icon" sizes="180x180" href="favicons/Agapi_32x32.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicons/Agapi_32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicons/Agapi_16x16.png">
-		<link rel="manifest" href="favicons/site.webmanifest">
-		<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
-		<meta name="theme-color" content="#ffffff">
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="favicons/Agapi_32x32.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicons/Agapi_32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicons/Agapi_16x16.png">
+<link rel="manifest" href="favicons/site.webmanifest">
+<link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<script src="https://kit.fontawesome.com/fa08c37f04.js" crossorigin="anonymous"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110543961-1"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-110543961-1');
+</script>
 
-		<script src="https://kit.fontawesome.com/fa08c37f04.js" crossorigin="anonymous"></script>
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110543961-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-		  	function gtag(){dataLayer.push(arguments);}
-		  	gtag('js', new Date());
-		  	gtag('config', 'UA-110543961-1');
-		</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Kien Tran - Portfolio">
+<meta name="keywords" content="software development, Business Analytics, Business Informatics, python">
+<meta name="author" content="Kien Tran">
+<title>Kien Tran - Portfolio</title>
+<link href="css/bootstrap.min.css?v=1.1" rel="stylesheet">
+<link href="css/styles.css?v=1.1" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="js/jquery.isotope.js" type="text/javascript"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+</head>
 
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<body>
+<nav class="navbar navbar-expand-lg popover-header"></nav>
 
-		<meta name="description" content="Kien Tran - Portfolio">
-		<meta name="keywords" content="software development, Business Analytics, Business Informatics, python">
-		<meta name="author" content="Kien Tran">
+<div class="container">
 
-		<title>Kien Tran - Portfolio</title>
+  <div class="container" align="center">
+    <h1 class="intro"> Hello, I'm Kien Tran, Welcome to my porfolio! </h1>
+    <div align="center">
+      <br>
+      <a class="fabicon" href="https://github.com/KienTran2000" style="color: #081D2E;">
+        <i class="fab fa-github-square" style="font-size:40px; "></i>
+      </a>
+      <a class="fabicon" href="https://www.linkedin.com/in/kientran1806/" style="color: #081D2E;">
+        <i class="fab fa-linkedin" style="font-size:40px; padding-left: 40px;"></i>
+      </a>
+      <a class="fabicon" href="https://medium.com/@khangtm99" style="color: #081D2E;">
+        <i class="fab fa-medium" style="font-size:40px; padding-left: 40px;"></i>
+      </a>
+    </div>
+    <br>
+  </div>
 
-		<link href="css/bootstrap.min.css?v=1.1" rel="stylesheet">
-		<link href="css/styles.css?v=1.1" rel="stylesheet">
+  <div class="menu" align="center">
+    <center>
+      <a href="/" filter=".pj" class="current">Projects</a>
+      <i style="padding-left: 40px;"></i>
+      <a href="/blogs.html" filter=".blogs">Blogs &amp; Article</a>
+      <i style="padding-left: 40px;"></i>
+      <a href="/about.html">About</a>
+    </center>
+  </div>
+  <br>
 
-		<script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
-		<script src="js/jquery.isotope.js" type="text/javascript"></script>
-		<script src="js/bootstrap.bundle.min.js"></script>
-	</head>
+<div class="project-filter" role="group" aria-label="Filter projects">
+    <button type="button" class="filter-chip is-active" data-role="all">All <span class="count"></span></button>
+    <button type="button" class="filter-chip" data-role="dev">Dev <span class="count"></span></button>
+    <button type="button" class="filter-chip" data-role="ba">Business & Data Analysts <span class="count"></span></button>
+    <select class="company-filter" aria-label="Filter by company" hidden>
+      <option value="all">All companies</option>
+    </select>
+  </div>
 
-  	<body>
-		<nav class="navbar navbar-expand-lg popover-header"></nav>
 
-		<div class="container">
-			<div class="container" align="center">
-				<h1 class="intro"> Hello, I'm Kien Tran, Welcome to my porfolio! </h1>
+  <div class="projectContainer row">
 
-				<div align="center">
-					<br>
-					<a class="fabicon" href="https://github.com/KienTran2000" style="color: #081D2E;">
-						<i class="fab fa-github-square" style="font-size:40px; "></i>
-					</a>
-					<a class="fabicon" href="https://www.linkedin.com/in/kientran1806/" style="color: #081D2E;">
-						<i class="fab fa-linkedin" style = "font-size:40px; padding-left: 40px;"></i>
-					</a>
-										<a class="fabicon" href="https://medium.com/@khangtm99" style="color: #081D2E;">
-						<i class="fab fa-medium" style = "font-size:40px; padding-left: 40px;"></i>
-					</a>
-				</div>
-				<br>
-			</div>
+    <div class="pj col-lg-6 col-md-12 portfolio-item" data-roles="data ba" data-company="Self-Project">
+      <div class="card project-card">
+        <div class="project-thumb">
+          <img src="images/icons/revenue.png" alt="SME">
+        </div>
+        <div class="card-body">
+          <h4 class="project-title">Vietnam SME Digital Adoption Analytics</h4>
+		    <div class="project-meta">
+            <span class="role-tag role-dev">Business & Data Analyst </span>
+            <span class="project-company"><i class="fas fa-building"></i>Personal project</span>
+          </div>
+          <p class="card-text">An interactive dashboard for visualising digital technology adoption trends among Vietnamese SMEs, powered by open data and intuitive geospatial analytics.</p>
+          <ul class="tech-list"><li>Dash</li><li>Plotly</li><li>Pandas</li><li>Geopandas</li><li>GeoJSON</li><li>Choropleth Maps</li><li>Python 3.9+</li><li>CSV</li><li>JSON</li></ul> 
+		  <div class="link_button">
+            <a class="fabicon" href="https://github.com/KienTran2000/vn_sme_dashboard" style="color: #081D2E;" aria-label="Vietnam SME Digital Adoption Analytics on GitHub">
+              <i class="fab fa-github-square" style="font-size:35px"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div class="menu" align="center">
-				<center>
-					<a href="/" filter=".pj" class="current">Projects</a>
-						<i style = "padding-left: 40px;"></i>
-					<a href="/blogs.html" filter=".blogs">Blogs & Article</a>
-						<i style = "padding-left: 40px;"></i>
-					<a href="/about.html">About</a>
-				</center>
-			</div>
+    <div class="pj col-lg-6 col-md-12 portfolio-item" data-roles="data dev" data-company="Self-Project">
+      <div class="card project-card">
+        <div class="project-thumb">
+          <img src="images/icons/clinic.png" alt="PEADITRIC">
+        </div>
+        <div class="card-body">
+          <h4 class="project-title">Pediatric Clinic Management System</h4>
+		  <div class="project-meta">
+            <span class="role-tag role-dev">Dev</span>
+            <span class="project-company"><i class="fas fa-building"></i>Personal project</span>
+          </div>
+          <p class="card-text">Users can schedule medical examinations and tests at the clinic or at home. The clinic can process requests, schedule appointments, and coordinate doctors to examine patients.</p>
+          <ul class="tech-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>ASP.NET</li><li>Bootstrap 5</li><li>SQL Server</li></ul>
+          <div class="link_button">
+            <a class="fabicon" href="https://github.com/KienTran2000/Pediatric_Clinic" style="color: #081D2E;" aria-label="Pediatric Clinic Management System on GitHub">
+              <i class="fab fa-github-square" style="font-size:35px"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<br>
+    <div class="pj col-lg-6 col-md-12 portfolio-item" data-roles="data ba" data-company="Self-Project">
+      <div class="card project-card">
+        <div class="project-thumb">
+          <img src="images/icons/cv19.png" alt="COVID">
+        </div>
+        <div class="card-body">
+          <h4 class="project-title">Analysis of COVID-19 patient data in Vietnam</h4>
+		  <div class="project-meta">
+            <span class="role-tag role-dev">Business & Data Analyst</span>
+            <span class="project-company"><i class="fas fa-building"></i>Personal project</span>
+          </div>
+          <p class="card-text">Visualize COVID-19 case data in Vietnam by province, status, nationality and age group.</p>
+          <ul class="tech-list"><li>Streamlit</li><li>Pandas</li><li>NumPy</li><li>Python 3.9+</li><li>CSV</li><li>JSON</li></ul>
+          <div class="link_button">
+            <a class="fabicon" href="https://github.com/KienTran2000/Covid-VN-Stats" style="color: #081D2E;" aria-label="Analysis of COVID-19 patient data in Vietnam on GitHub">
+              <i class="fab fa-github-square" style="font-size:35px"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div class="projectContainer row">
-				<div class="pj col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card">
-						<img class="card-img-top mx-auto" src="images/icons/revenue.png" alt="SME">
-						<div class="card-body d-flex flex-column">
-							<h4 class="card-title">
-								<center>
-									<h4 class="card-title"> Vietnam SME Digital Adoption Analytics</h4>
-								</center>
-							</h4>
-								<p class="card-text">An interactive dashboard for visualising digital technology adoption trends among Vietnamese SMEs, powered by open data and intuitive geospatial analytics.</p>
-							<ul style="list-style-type:square; text-align: left;">
-								<li>Dash, Plotly, Pandas, Geopandas </li>
-								<li>GeoJSON, Choropleth Maps </li> 
-								<li>Python 3.9+, CSV, JSON </li> 
-							</ul>
-						</div>
-						<br>
-						<div class="link_button">
-							<a class="fabicon" href="https://github.com/KienTran2000/vn_sme_dashboard" style="color: #081D2E;">
-								<i class="fab fa-github-square" style = "font-size:35px"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="pj col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card">
-						<img class="card-img-top mx-auto" src="images/icons/clinic.png" alt="PEADITRIC">
-						<div class="card-body d-flex flex-column">
-							<h4 class="card-title">
-								<center>
-									<h4 class="card-title"> Pediatric Clinic Management System </h4>
-								</center>
-							</h4>
-								<p class="card-text">The system allows users to schedule medical examinations at the clinic and at home, and tests. 
-Allows the clinic to process, schedule appointments, and coordinate doctors to examine patients.</p>
-							<ul style="list-style-type:square; text-align: left;">
-								<li>HTML, CSS, Javascript</li> 
-								<li>ASP.NET, Bootstrap 5 </li>
-								<li>SQL Sever </li> 
-							</ul>
-						</div>
-						<br>
-						<div class="link_button">
-							<a class="fabicon" href="https://github.com/KienTran2000/Pediatric_Clinic" style="color: #081D2E;">
-								<i class="fab fa-github-square" style = "font-size:35px"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-							<div class="pj col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card">
-						<img class="card-img-top mx-auto" src="images/icons/cv19.png" alt="COVID">
-						<div class="card-body d-flex flex-column">
-							<h4 class="card-title">
-								<center>
-									<h4 class="card-title"> Analysis of COVID-19 patient data in Vietnam </h4>
-								</center>
-							</h4>
-								<p class="card-text">Visualize COVID-19 case data in Vietnam by province, status, nationality and age group.</p>
-							<ul style="list-style-type:square; text-align: left;">
-								<li>Streamlit, Pandas, NumPy</li> 
-								<li>Python 3.9+, CSV, JSON </li> 
-							</ul>
-						</div>
-						<br>
-						<div class="link_button">
-							<a class="fabicon" href="https://github.com/KienTran2000/Covid-VN-Stats" style="color: #081D2E;">
-								<i class="fab fa-github-square" style = "font-size:35px"></i>
-							</a>
-						</div>
-					</div>
-				</div>	
-				<div class="pj col-lg-3 col-md-4 col-sm-6 portfolio-item">
-					<div class="card">
-						<img class="card-img-top mx-auto" src="images/icons/music.png" alt="MUSIC">
-						<div class="card-body d-flex flex-column">
-							<h4 class="card-title">
-								<center>
-									<h4 class="card-title"> Listening Music Behavior</h4>
-								</center>
-							</h4>
-								<p class="card-text">An interactive platform that analyzes how users engage with music by genre, time of day, and device, highlighting listening patterns, content preferences, and usage trends over time.</p>
-							<ul style="list-style-type:square; text-align: left;">
-								<li>HTML, CSS</li> 
-								<li>Javascript, Bootstrap 5 </li> 
-							</ul>
-						</div>
-						<br>
-						<div class="link_button">
-							<a class="fabicon" href="https://github.com/KienTran2000/MusicPlay" style="color: #081D2E;">
-								<i class="fab fa-github-square" style = "font-size:35px"></i>
-							</a>
-						</div>
-					</div>
-				</div>
+    <div class="pj col-lg-6 col-md-12 portfolio-item" data-roles="data dev" data-company="Self-Project">
+      <div class="card project-card">
+        <div class="project-thumb">
+          <img src="images/icons/music.png" alt="MUSIC">
+        </div>
+        <div class="card-body">
+          <h4 class="project-title">Listening Music Behavior</h4>
+		  <div class="project-meta">
+            <span class="role-tag role-dev">Dev</span>
+            <span class="project-company"><i class="fas fa-building"></i>Personal project</span>
+          </div>
+          <p class="card-text">An interactive platform that analyzes how users engage with music by genre, time of day, and device, highlighting listening patterns, content preferences, and usage trends over time.</p>
+          <ul class="tech-list"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Bootstrap 5</li></ul>
+          <div class="link_button">
+            <a class="fabicon" href="https://github.com/KienTran2000/MusicPlay" style="color: #081D2E;" aria-label="Listening Music Behavior on GitHub">
+              <i class="fab fa-github-square" style="font-size:35px"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			</div>
+  </div>
 
-		</div>
-	</body>
+</div>
 
-	<br>
+<script>
+/* Project filter: role chips + company dropdown (built from data-company). */
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll('.projectContainer > .pj'));
+  var chips = Array.prototype.slice.call(document.querySelectorAll('.filter-chip'));
+  var select = document.querySelector('.company-filter');
+  var role = 'all', company = 'all';
 
-	<div class="footer-bottom">
-		<p class="m-0 text-center text-muted"><a> Template by </a> <a class="link-text text-muted" href="https://gsurma.github.io/">Greg Surma</a>
-		<p class="m-0 text-center text-muted"> Made by Kien <img class="carousel-control-next-icon" src="favicons/77305.png"> ▪ <a>© </a> <script>document.write(new Date().getFullYear())</script></p>
-	</div>
+  function hasRole(item, r) { return (item.dataset.roles || '').split(' ').indexOf(r) > -1; }
+
+  // Count per role; hide roles that no project uses yet
+  chips.forEach(function (chip) {
+    var r = chip.dataset.role;
+    var n = r === 'all' ? items.length : items.filter(function (it) { return hasRole(it, r); }).length;
+    if (n === 0) { chip.hidden = true; return; }
+    chip.querySelector('.count').textContent = n;
+  });
+
+  // Company dropdown only appears when there are 2+ companies
+  var companies = [];
+  items.forEach(function (it) {
+    var c = it.dataset.company;
+    if (c && companies.indexOf(c) === -1) companies.push(c);
+  });
+  if (companies.length > 1) {
+    companies.forEach(function (c) {
+      var o = document.createElement('option');
+      o.value = c; o.textContent = c;
+      select.appendChild(o);
+    });
+    select.hidden = false;
+  }
+
+  function apply() {
+    items.forEach(function (it) {
+      var okRole = role === 'all' || hasRole(it, role);
+      var okCompany = company === 'all' || it.dataset.company === company;
+      it.hidden = !(okRole && okCompany);
+    });
+    chips.forEach(function (c) { c.classList.toggle('is-active', c.dataset.role === role); });
+  }
+
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () { role = chip.dataset.role; apply(); });
+  });
+  select.addEventListener('change', function () { company = select.value; apply(); });
+})();
+</script>
+</body>
+<br>
+<div class="footer-bottom">
+  <p class="m-0 text-center text-muted"> Made by Kien Tran<img class="carousel-control-next-icon" src="favicons/77305.png"> ▪ <a>© </a> <script>document.write(new Date().getFullYear())</script></p>
+</div>
 </html>
